@@ -5,6 +5,7 @@
 
 void main()
 {
+int gd=DETECT, gm, i, j;
 gotoxy(300,350);
 printf("\n\n\n\n\n\n");
 printf("\n\t\t\t   //---------------------||		");
@@ -14,7 +15,6 @@ gotoxy(300,370);
 printf("\n\t\t\t   ||---------------------//		");
 gotoxy(550,450);
 delay(4000);
-int gd=DETECT, gm, i, j;
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 rectangle(50,-35,180,390);        // building
 outtextxy(0,400,"Counting");
